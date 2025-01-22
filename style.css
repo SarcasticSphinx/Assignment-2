@@ -16,7 +16,7 @@ marquee{
   background-color: #01acfd;
   color: white;
   padding: 8px 0;
-  font-weight: 700;G
+  font-weight: 700;
 }
 section {
   padding: 60px 140px;
@@ -308,6 +308,7 @@ footer {
   /* nav bar */
   .nav-bar {
     padding: 10px 20px;
+    border-bottom: 1px solid black;
   }
   .nav-links,
   .contact-btn {
