@@ -12,7 +12,7 @@ body {
   --black: black;
   --white: white;
 }
-marquee{
+marquee {
   background-color: #01acfd;
   color: white;
   padding: 8px 0;
@@ -93,7 +93,7 @@ a {
 .hero-page h1 {
   font-size: 3.5rem;
 }
-.hero-page p{
+.hero-page p {
   padding: 0;
 }
 .hero-content {
@@ -184,8 +184,7 @@ a {
       rgba(254, 163, 1, 0.3) 0%,
       rgba(255, 255, 255, 0.3) 100%
     );
-    flex-direction: column;
-
+  flex-direction: column;
 }
 .stories .section-content {
   gap: 20px;
@@ -202,13 +201,14 @@ a {
   width: 100%;
   border-radius: 16px 16px 0 0;
 }
-.big-card h1, .big-card p{
+.big-card h1,
+.big-card p {
   padding: 0 50px;
 }
 .big-card {
   width: 500px;
 }
-.stories .card h1{
+.stories .card h1 {
   padding: 0 20px;
 }
 .img-container {
@@ -227,15 +227,15 @@ a {
   left: 10%;
   transform: translateY(-55%);
 }
-.magenda-bg{
-    background-color: #5D58F0;
+.magenda-bg {
+  background-color: #5d58f0;
 }
-.green-bg{
-    background-color: #95B226;
+.green-bg {
+  background-color: #95b226;
 }
-.small-batch{
-    padding: 8px 16px;
-    font-size: .8rem;
+.small-batch {
+  padding: 8px 16px;
+  font-size: 0.8rem;
 }
 
 .card-grid {
@@ -249,7 +249,7 @@ a {
 .card-grid .card .card-heading {
   font-size: 0.8rem;
 }
-.only-mobile{
+.only-mobile {
   display: none;
 }
 .stories button {
@@ -296,12 +296,11 @@ footer {
   gap: 8px;
 }
 
-
 @media screen and (max-width: 576px) {
   section {
     padding: 0 20px;
   }
-  .section-content{
+  .section-content {
     margin: 20px 0;
   }
 
@@ -309,6 +308,9 @@ footer {
   .nav-bar {
     padding: 10px 20px;
     border-bottom: 1px solid black;
+  }
+  .nav-bar h1 {
+    display: none;
   }
   .nav-links,
   .contact-btn {
@@ -318,7 +320,7 @@ footer {
     display: block;
   }
 
-  .section-heading{
+  .section-heading {
     font-size: 26px;
     margin-top: 60px;
     margin-bottom: 32px;
@@ -333,48 +335,46 @@ footer {
     text-align: center;
     align-items: center;
     width: 90%;
-    
   }
   .hero-content h1 {
     margin-top: 24px;
     font-size: 2rem;
   }
-  .hero-page img{
+  .hero-page img {
     transform: translateY(0);
   }
 
   /* curriculum */
-  .card-container{
+  .card-container {
     flex-direction: column;
     gap: 8px;
   }
 
   /* Control Button */
-  .control-buttons{
+  .control-buttons {
     display: none;
   }
 
   /* stories */
-  .stories{
+  .stories {
     padding-bottom: 56px;
   }
-  .big-card{
+  .big-card {
     display: none;
   }
-  .stories .card{
+  .stories .card {
     width: 180px;
   }
 
-  .only-mobile{
+  .only-mobile {
     display: block;
   }
 
-  footer{
+  footer {
     grid-template-columns: 1fr;
     padding: 60px 24px;
   }
-  .outro{
+  .outro {
     padding-right: 0;
   }
-
 }
