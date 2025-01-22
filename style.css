@@ -84,11 +84,12 @@ a {
 .hero-page h1 {
   font-size: 3.5rem;
 }
+.hero-page p{
+  padding: 0;
+}
 .hero-content {
   align-items: flex-start;
   gap: 24px;
-}
-.hero-page .hero-content {
   flex-direction: column;
   width: 50%;
 }
@@ -292,17 +293,47 @@ footer {
     display: block;
   }
 
+  .section-heading{
+    font-size: 26px;
+  }
   /* hero-page */
   .hero-page {
     flex-direction: column-reverse;
-    text-align: center;
     justify-content: center;
   }
   .hero-content {
-    width: 100%;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    
   }
   .hero-content h1 {
+    margin-top: 24px;
     font-size: 2rem;
-    width: 100%;
   }
+
+  /* curriculum */
+  .card-container{
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  /* Control Button */
+  .control-buttons{
+    display: none;
+  }
+
+  /* stories */
+  .big-card{
+    display: none;
+  }
+  .stories .card{
+    width: 180px;
+  }
+
+  footer{
+    grid-template-columns: 1fr;
+    padding: 60px 24px;
+  }
+
 }
